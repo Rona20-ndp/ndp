@@ -1,0 +1,60 @@
+CSS (style.css)
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#tabel-absen {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabel-absen th, #tabel-absen td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#tabel-absen th {
+    background-color: #f0f0f0;
+}
+
